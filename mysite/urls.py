@@ -12,7 +12,7 @@ urlpatterns = patterns('',
                        url(r'^polls/', include('polls.urls', namespace='polls')),
 
                        # Examples:
-                       # url(r'^$', 'sites.views.home', name='home'),
+                       #url(r'^$', 'sites.views.home', name='home'),
                        # url(r'^sites/', include('sites.foo.urls')),
 
                        # Uncomment the admin/doc line below to enable admin documentation:
