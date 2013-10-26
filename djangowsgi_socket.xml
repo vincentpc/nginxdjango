@@ -4,4 +4,5 @@
     <module>django_wsgi</module>
     <processes>4</processes>
     <daemonize>log/uwsgi.log</daemonize>
+    <import>task.py</import>
 </uwsgi>
